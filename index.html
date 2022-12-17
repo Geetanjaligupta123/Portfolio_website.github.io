@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/85f197641e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>FullStack Developer</p>
+                <h1>Hi, I'm <span>Geetanjali</span> Gupta</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mypic..jpeg" height="690vh">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I, Geetanjali Gupta, am a pre-final year student pursuing a Btech in CSE(Data Science) from
+                        Galgotias College of Engineering and Technology. I love to explore new technologies. I am
+                        skilled in creating and designing websites. I enjoy competitive Programming; you can find me on
+                        Codechef and Leetcode. Apart from programming, I'm also passionate about drawing,
+                        photo editing, and content designing.I'm a voracious reader. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>Flutter</span><br>Building Apps</li>
+                            <li><span>Canvas</Canvas></span><br>Designing Posters</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sept 2021- Oct 2021</span><br>Sales, Marketing and Operations Intern at
+                                TechAnalogy</li>
+                            <li><span>Oct 2022- Jan 2022</span><br>Sales, Marketing and Operations Lead at TechAnalogy
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education'">
+                        <ul>
+                            <li><span>2020-Present</span><br>Galgotias College of Engineering & Technology
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>C/C++</h2>
+                    <p>I'm skilled in this language</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>HTML,CSS,JS</h2>
+                    <p>I have learnt these for website making basically for frontend Development</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+
+
+
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h2>ML</h2>
+                    <p>Currently I'm learning ML.I have made two projects using ML.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Git/Github</h2>
+                    <p>I have learnt for open source Contributions</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>ReactJs,NodeJS</h2>
+                    <p>I have learnt these for better designing of UI of a website basically to better work on both
+                        frontend and backend works.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-plane"></i>
+                    <h2>Flutter</h2>
+                    <p>I learnt flutter for making apps. I have keen interest in flutter.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------------------------------projects-------------------------------->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Book Recommender System</h3>
+                        <p>I have this Website using Machine learning.This will recommend books to user based on ratings
+                            of books.</p>
+                        <a href="https://github.com/Geetanjaligupta123/book-recommender.github.io"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Flutter App(Add Two Numbers)</h3>
+                        <p>I have this App using Flutter.This will add two Numbers</p>
+                        <a href="https://github.com/Geetanjaligupta123/Add-Two-Numbers"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Spotify clone</h3>
+                        <p>I have this website using HTML,CSS, Js.This will recommend songs</p>
+                        <a href="https://github.com/Geetanjaligupta123/SpotifyClone.github.io"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+            
+        </div>
+    </div>
+
+<!--------------------------------------------contact---------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>geetanjaligupta451@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91-7007953521</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100083684474988"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/geetanjai_gupta"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/geetanjali3944/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/geetanjali-gupta-1st-67478b205/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/GEET RESUME.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Geetanjali. Made <i class="fa-solid fa-heart"></i> by geetanjali gupta</p>
+    </div>
+</div>
+    </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablinks of tablinks) {
+                tablinks.classList.remove("active-link");
+            }
+            for (tabcontents of tablecontents) {
+                tabcontents.classList.remove("active-tab");
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
